@@ -1,0 +1,276 @@
+.mianbao{
+	height:112px;
+	width:1100px;
+	margin:0 auto;
+    padding-top:46px;
+    user-select: none;
+    
+}
+.breadcrumb>li+li:before {
+    padding: 0;
+    color: #ccc;
+    content: "";
+}
+.breadcrumb{
+    padding: 0;
+    background: #fff;
+}
+.breadcrumb li{
+	font-size: 18px;
+}
+.person-con{
+    width:100%;
+    height:100%;
+    background:#FAFAFA;
+    user-select: none;
+    
+}
+.person-contact{
+    width:1100px;
+    height:auto;
+    margin:0 auto;
+    position:relative;
+    display: flex;
+    margin-bottom: 70px;
+    justify-content: space-between;
+}
+.person-contact-l{
+    width:300px;
+    
+}
+.person-contact-r{
+    width:755px;
+    
+}
+.myAccount,.myAccount-con,.myAccount-con-tongji{
+    border-top:6px solid #FFBE25;
+    background: #fff;
+    box-shadow: 0px 2px 5px #888888;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top:14px;
+}
+.myAccount p{
+    width: 100%;
+    height: 53px;
+    background: #fff;
+    text-align: center;
+    line-height: 53px;
+    border-bottom: 1px dashed #CDCDCD;
+    margin:0;
+    font-size: 18px;
+    color: #ffbe25;
+}
+.myAccount p span{
+    color:#000;
+}
+.myAccount p i{
+    color:#484848;
+}
+.myAccount li{
+    height:53px;
+    width:100%;
+    text-align: center;
+    line-height:53px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.myAccount li:hover,.myAccount li.active,.myAccount .active a{
+    background: #EDEDED;
+    color:#ff8625;
+    cursor: pointer;
+}
+.myAccount:first-child,.myAccount-con:first-child{
+   margin:0;
+}
+.myAccount-con-xinxi{
+    height:181px;
+    border-bottom: 1px dashed #CDCDCD;
+    background: #fff;
+    padding:0 49px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+        z-index: 10;
+}  
+.left {  
+      box-shadow: 0px 3px 8px #ccc;  
+}  
+.toux{
+        line-height: 181px;
+}
+.myAccount-con-xinxi p{
+    padding: 0;
+    height: 20px;
+    margin: 15px 10px;
+    font-size: 16px;
+    color: #333333;
+}
+.myAccount-con-xinxi p i{
+    font-size: 14px;
+    color: #666666;
+}
+.myAccount-con-xinxi-user{
+    line-height: 80px;
+    margin-left: -50px;
+}
+.myAccount-con-xinxi-user-set{
+    text-align: center;
+}
+.myAccount-con-xinxi-user-set a{
+        display: -webkit-box;
+        margin-top: 15px;
+        margin-left: 30px;
+       text-decoration: underline;
+}
+.myAccount-con-xinxi-user-set .btn,.myAccount-con-xinxi-user-set .tixians{
+    width: 97px;
+    height: 33px;
+    color: #fff;
+    background: #FF8625;
+    border-color: rgba(0,0,0,0);
+    margin: 70px 0 5px 15px;
+}
+.myAccount-con-xinxi-user-set .tixians{
+    background: #FFBE25;
+}
+.myAccount-con-xinxi:before {
+    content: "";
+    width: 10px;
+    border-radius: 0 28px 28px 0;
+    height: 20px;
+    background: #f8f8f8;
+    top: 170px;
+    left: -3px;
+    position: absolute;
+    box-shadow: -3px 3px 4px #e0e0e0 inset;
+}
+.myAccount-con-xinxi:after {
+    content: "";
+    width: 10px;
+    height: 20px;
+    background: #fafafa;
+    top: 170px;
+    position: absolute;
+    box-shadow: 3px 3px 4px #e0e0e0 inset;
+    border-radius: 28px 0 0 28px;
+    right: -3px;
+}
+
+
+
+
+
+.myAccount-con-tubiao{
+    padding:17px 37px;
+    height:370px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.myAccount-con-tubiao .myAccount-con-tubiao-li{
+    width:317px;
+    border-top:6px solid #FFBE25;
+    text-align: center;
+    position:relative;
+}
+.myAccount-con-tubiao .myAccount-con-tubiao-li .myAccount-con-tubiao-li-span{
+    width: 145px;
+    margin-top: 15px;
+    height: 32px;
+    border-radius: 30px;
+    border: 1px solid #FFBE25;
+    padding: 0 23px;
+    line-height: 32px;
+    color: #ffbe25;
+    font-size: 16px;
+    font-weight: 600;
+}
+.myAccount-con-tongji{
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.myAccount-con-tongji p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #532e1a;
+    font-weight: 600;
+}
+
+
+/* 图表色块说明 */
+.sekuai{
+    width:31px;height:11px;margin-top: 4px;
+}
+ .myAccount-con-tubiao-jieshi{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.myAccount-con-tubiao-jieshi li{
+    display: flex;
+    margin-left: 60px;
+}
+.myAccount-con-tubiao-jieshi li:nth-child(1) .sekuai{
+    background:#FFBE25;
+}
+.myAccount-con-tubiao-jieshi li:nth-child(2) .sekuai{
+    background:#F29B76;
+}
+.myAccount-con-tubiao-jieshi li:nth-child(3) .sekuai{
+    background:#EB6877;
+}
+.myAccount-con-tubiao-jieshi li:nth-child(4) .sekuai{
+    background:#532E1A;
+}
+.myAccount-con-tubiao-jieshi li span{
+    margin-left:20px;
+}
+.myAccount-con-tubiao-jieshi li i{
+    margin-left:80px;
+}
+.myAccount-con-tubiao-jieshi li:last-child i{
+    margin-left:24px;
+}
+
+.ajax{
+    width: 755px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    padding: 10px 0;
+    background: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 2px 8px #ccc;
+}
+.ajax-bu{
+    width: 755px;
+    height: auto;
+    position: relative;
+    top: 40px;
+    background: #fff;
+    padding: 0 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #ccc;
+}
+.attestation{
+    border: 0;
+    background: #FF8625;
+    font-size: 8px;
+    padding: 0 8px;
+    margin-left: 10px;
+    color: #fff;
+        cursor: auto;
+}
+.attestation:hover, .attestation:focus, .attestation.focus {
+    border: 0;
+    background: #FF8625;
+    font-size: 8px;
+    padding: 0 8px;
+    margin-left: 10px;
+    color: #fff;
+}

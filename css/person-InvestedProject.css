@@ -1,0 +1,29 @@
+.myAccount-con-huikuancon{
+      height: 100%;
+}
+.myAccount-con-huikuancontact{
+   width:680px;
+   margin: 0px auto;
+   box-shadow: 0px 0px 5px #FFBE25;
+   margin-top: 20px;
+   margin-bottom: 90px;
+}
+.myAccount-con-hklist{
+  height:60px;
+  width；100%;
+  line-height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom:1px dashed #EEEEEE;
+  margin-bottom: 0;
+}
+.myAccount-con-hklist li{
+  border-top:6px solid #fff;
+  font-size: 16px;
+  padding-left:20px;
+  line-height: 47px;
+}
+.myAccount-con-hklist .active,.myAccount-con-hklist:hover .myAccount-con-hklist>li{
+  border-top:6px solid #FFBE25;
+  color:#ffbe25;
+}

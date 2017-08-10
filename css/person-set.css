@@ -1,0 +1,129 @@
+.myAccount-con-huikuancon{
+      height: 100%;
+}
+.myAccount-con-huikuancontact{
+   width:680px;
+   margin: 0px auto;
+   box-shadow: 0px 0px 5px #FFBE25;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.myAccount-con-hklist{
+  height:60px;
+  width；100%;
+  line-height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom:1px dashed #EEEEEE;
+  margin-bottom: 0;
+}
+.myAccount-con-hklist li{
+  border-top:6px solid #fff;
+  font-size: 16px;
+  padding-left:20px;
+  line-height: 47px;
+}
+.myAccount-con-hklist .active,.myAccount-con-hklist:hover .myAccount-con-hklist>li{
+  border-top:6px solid #FFBE25;
+  color:#ffbe25;
+}
+.news-con .news-huankuan li {
+    padding:20px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.news-con .news-huankuan li.active {
+    background: #FAFAFA;
+}
+.news-con .news-huankuan li .news-hkl{
+      width: 160px;
+}
+.news-con .news-huankuan li .news-hkl p{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 600;
+    margin:0;
+}
+.news-con .news-huankuan li i p{
+         margin-left: 430px;
+}
+.news-con .news-huankuan li i:nth-child(2){
+      color: #999999;
+}
+.news-con .news-huankuan li i p{
+      color: #666666;
+}
+tbody tr td:first-child{
+  width:163px;
+  background: #EEEEEE;
+  border-right: 1px solid #fff;
+}
+tbody tr td:nth-child(2){
+  text-align: left;
+  padding-left:100px;
+  box-sizing: border-box;
+  border-right: 1px solid #fff;
+}
+tbody tr td:last-child{
+ text-align: right;
+ padding-right:50px;
+ box-sizing: border-box;
+}
+tbody tr td button{
+  width:94px;
+}
+.modal-dialog {
+    width: 580px;
+    margin: 100px 280px;
+}
+form{
+    margin-top: 40px;
+}
+.BindPhone{
+    text-align: left;
+    padding-left: 90px;
+}
+.identifyingCode{
+  width: 48%;
+}
+.phone-identifyingCode{
+  display: flex;
+    justify-content: space-between;
+}
+.send-phone{
+      background: #FFBE25;
+    color: #fff;
+    border: 0;
+}
+/* .btn:hover, .btn:focus, .btn.focus, a:hover, a:focus {
+    border:1px solid rgba(0,0,0,0);
+    outline: none;
+} */
+.table-bordered tbody tr:hover{
+ border:1px solid #ddd;
+}
+.table-bordered {
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.table>tbody>tr>td {
+    line-height: 50px;
+}
+.table-bordered tbody tr td.table-2{
+    line-height: 61px;
+}
+.table>tbody>tr:hover >td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.form-group label {
+    color: #532E1A;
+    font-weight: 100;
+    line-height: 20px;
+}
+.col-sm-7 {
+    text-align: initial;
+    margin-left: -40px;
+}

@@ -1,0 +1,123 @@
+a:focus,button:focus {
+outline: none;
+}
+.reg-back{
+	width:100%;
+	position: relative;
+}
+.reg-back img{
+	width: 100%;
+}
+.login{
+	width:491px;
+	height:563px;
+	background:rgba(255,255,255,.5);
+	position:absolute;
+	top:36px;
+	right:164px;
+	padding:37px 42px;
+}
+.has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label {
+    color: #000;
+    font-size: 16px;
+}
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+    color: #000;
+    font-size: 16px;
+    padding-left:10px;
+}
+label {
+    color: #000;
+    font-size: 16px;
+    padding-left:10px;
+    font-family: "微软雅黑";
+    font-weight: 500;
+}
+.has-success .form-control {
+    border: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.has-feedback .form-control {
+    padding-right: 42.5px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border:0;
+    border-radius:0px;
+  
+}
+.yanzheng .btn {
+    display: inline-block;
+    padding: 0px 50px;
+    margin-top: -5px;
+    font-size: 18spx;
+    border: 1px solid #FFBE25;
+    border-color: #FFBE25;
+    border-radius: 20px;
+    height: 34px;
+    margin-top: 27px;
+    border-radius: 5px;
+}
+.yanzheng .btn-warning {
+    color: #532E1A;
+    background-color: #FFBE25;
+    border-color: rgba(0,0,0,0);
+}
+.tongyi{
+	display: flex; align-items:center;
+}
+.tongyi span{
+	width:9px;
+	height:9px;
+	border:1px solid #000;
+	margin:0 10px;
+}
+.tongyi p{
+	font-size: 14px;
+	margin: auto 0;
+}
+.tongyi a{
+	color:#FEC34A;
+}
+.login p .reg-btn{
+	width: 100%;
+    margin: 15px 0;
+    height: 50px;
+    border-radius: 30px;
+    background: url(../image/register-b.jpg);
+    background-size: inherit;
+    border:0;
+}
+.login p:last-child{
+	text-align: center;
+}
+
+
+.label-fcous{
+   width:100%;
+   height:44px;
+   background: #fff;
+   padding:10px;
+   margin:auto 0;
+}
+
+.form-group{
+    position:relative;
+}
+.form-group span{
+    position:absolute;
+    width:30px;
+    height:25px;
+    background:url(../image/login-dui.jpg)no-repeat;
+    top: 32px;
+    right: 10px;
+}

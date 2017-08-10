@@ -1,0 +1,58 @@
+a:focus,button:focus {
+outline: none;
+}
+.product-details-contac-l {
+    width: 100%;
+}
+.product-details-contac-l h4{
+	margin: 30px auto;
+    text-align: center;
+    color: #333;
+}
+.qyjyxx {
+    width: 13%;
+    background: #fff;
+}
+.product-details-contac-l ul{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.product-details-contac-l ul li{
+	width:50%;
+	height:100%;
+	padding: 20px 70px;
+}
+.product-details-contac-l ul li p{
+	font-size: 14px;
+	padding:15px 0;
+	border-bottom: 1px solid #E5E5E5;
+	color: #000;
+}
+.product-details-contac-l ul li p span{
+	font-size: 14px;
+	color: #a7a7a7;
+	margin-left:30px;
+}
+.product-details-back{
+   width:90%;
+   height:5px;
+   background: #FFBE25;
+   position: absolute;
+   bottom:-5px;
+   left:0;right:0;margin:0 auto;
+}
+.Companyprofile{
+	padding-right: 10px;
+    font-size: 14px;
+    color: #717171;
+}
+.product-details-contac-l .lastul{
+	display: block;
+}
+label {
+    margin-left:20px;
+}
+.col-sm-6.NetloanReported-name {
+    margin-left: -18px;
+}

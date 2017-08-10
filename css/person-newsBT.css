@@ -1,0 +1,52 @@
+.myAccount-con-huikuancon{
+      height: 100%;
+}
+.myAccount-con-huikuancontact{
+   width:680px;
+   margin: 0px auto;
+   box-shadow: 0px 0px 5px #FFBE25;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.myAccount-con-hklist{
+  height:60px;
+  width；100%;
+  line-height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom:1px dashed #EEEEEE;
+  margin-bottom: 0;
+}
+.myAccount-con-hklist li{
+  border-top:6px solid #fff;
+  font-size: 16px;
+  padding-left:20px;
+  line-height: 47px;
+}
+.myAccount-con-hklist .active,.myAccount-con-hklist:hover .myAccount-con-hklist>li{
+  border-top:6px solid #FFBE25;
+  color:#ffbe25;
+}
+.news-con .news-huankuan li {
+    padding:20px 40px;
+}
+.news-con .news-huankuan li a{
+    display: flex;
+    justify-content: space-around;
+}
+.news-con .news-huankuan li.active,.news-con .news-huankuan li:hover {
+    background: #FAFAFA;
+}
+.news-con .news-huankuan li a .news-hkl{
+      width: 160px;
+}
+.news-con .news-huankuan li a .news-hkl p{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 600;
+    margin:0;
+}
+.news-con .news-huankuan li a i:nth-child(2){
+      color: #999999;
+}
+

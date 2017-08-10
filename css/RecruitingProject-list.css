@@ -1,0 +1,8 @@
+.table thead tr {
+    background: #ffbe25;
+    color: #fff;
+    line-height: 56px;
+}
+.table thead tr th{
+    color: #fff;
+}

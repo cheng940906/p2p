@@ -1,0 +1,221 @@
+
+.companyPerfectInformation{
+      height: 100%;
+      text-align: center;
+}
+.companyPerfectInformation .myAccount-con-huikuancontact,.qyjs{
+   width:680px;
+   margin: 0px auto;
+   box-shadow: 0px 0px 5px #FFBE25;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.companyPerfectInformation .myAccount-con-hklist{
+  height:60px;
+  width；100%;
+  line-height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom:1px dashed #EEEEEE;
+  margin-bottom: 0;
+}
+.companyPerfectInformation .myAccount-con-hklist li{
+  border-top:6px solid #fff;
+  font-size: 16px;
+  padding-left:20px;
+  line-height: 47px;
+}
+.myAccount-con-hklist .active,.myAccount-con-hklist:hover .myAccount-con-hklist>li{
+  border-top:6px solid #FFBE25;
+  color:#ffbe25;
+}
+.Information .news-huankuan li {
+    padding:20px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.Information .news-huankuan li.active {
+    background: #FAFAFA;
+}
+.Information .news-huankuan li .news-hkl{
+      width: 160px;
+}
+.Information .news-huankuan li .news-hkl p{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 600;
+    margin:0;
+}
+.Information .news-huankuan li i p{
+         margin-left: 430px;
+}
+.Information .news-huankuan li i:nth-child(2){
+     color: #999999;
+}
+.Information .news-huankuan li i p{
+      color: #666666;
+}
+.companyPerfectInformation .form-group{
+  display: flex;
+    justify-content: flex-start;
+    line-height: 34px;
+}
+select.form-control,.form-group input{
+    width: auto;
+    margin-left: 20px;
+    border-radius: 0;
+    width: 220px;
+}
+button{
+      margin: auto;
+}
+.Information{
+  padding-bottom: 10px;
+  position:relative;
+}
+.setxxxx-gang{
+  width:660px;
+  height: 4px;
+  background: #FFBE25;
+  position: absolute;
+  bottom:-4px;
+  left:0;right:0;margin:0 auto;
+}
+.companyPerfectInformation .myAccount-con-huikuancontact{
+  position: relative;
+  text-align: center;
+}
+.companyPerfectInformation .qyjyxx{
+    font-size: 16px;
+    width:10%;
+    display: -webkit-inline-box;
+    padding: 5px 20px;
+    border: 1px solid #ffbe25;
+    border-radius: 20px;
+    color: #ffbe25;
+    background: #fff;
+    font-weight: 600;
+    position: absolute;
+    top:-18px;
+    left:0;right:0;margin:0 auto;
+    z-index: 4;width:21%;
+}
+.companyPerfectInformation .myAccount-con-huikuancontact:nth-child(1) .qyjyxx{
+   position: static;
+   margin: 10px auto;
+   padding: 5px 37px;
+}
+.companyPerfectInformation .myAccount-con-huikuancontact:nth-child(2){
+      margin-top: 60px;
+      padding: 20px 0;
+}
+.Information{
+  padding: 20px 0;
+}
+.companyPerfectInformation .table{
+  margin:0;
+}
+.companyPerfectInformation .qyjs{
+  position: relative;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  padding: 10px 5px;
+}
+.companyPerfectInformation .qyjs p{
+      text-align: -webkit-left;
+          margin: 5px 10px;
+}
+.improve{
+    width: 100%;
+    height: 1200px;
+    background: #fff;
+    margin-top: -5px;
+    padding: 20px 0;
+    box-shadow: 0 0 5px #ccc;
+}
+.companyPerfectInformation .person-con {
+    height: auto;
+    padding-bottom: 20px;
+}
+.foundingTime{
+  position:relative;
+  left:-120px;
+}
+.companyPerfectInformation .input-group{
+  width: 120px;
+  position: relative;
+}
+.companyPerfectInformation .input-group input{
+  width:90px;
+}
+.companyPerfectInformation .input-group span{
+    position: absolute;
+    top:2px;
+    bottom: 0;
+    margin: auto auto;
+    right:5px;
+    z-index: 3;
+    display: inherit;
+    background: #fff;
+    border:0;
+}
+.radio{
+      margin: auto 30px;
+}
+.radio label{
+      position: relative;
+}
+.radio label #optionsRadios2{
+    left: -120px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.radio+.radio, .checkbox+.checkbox {
+    margin-top: 0px;
+}
+ .registeredCapital{
+      margin-right: 10px;
+}
+.companyPerfectInformation .form-group label {
+    color: #000;
+}
+.companyPerfectInformation .table tbody tr{
+    border-bottom: 1px solid #DEDEDE;
+    padding: 0 5px;
+}
+.companyPerfectInformation .table tbody tr:hover{
+    border-bottom: 1px solid #DEDEDE;
+    border-top: 0;
+}
+.companyPerfectInformation .table tbody tr td .input-group-addon{
+    width: initial;
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: -7px;
+    right:12px;
+}
+.companyPerfectInformation .table tbody td {
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    border-bottom: 1px solid #ccc;
+}
+.Information .table>tbody>tr>td {
+    border-top: 0;
+    border-bottom: 0;
+}
+.improve .putIn{
+    margin-left: 200px;
+    margin-top: 10px;
+    color: #fff;    border: 0;
+    background-color: #ffbe25;
+}
+.improve .resetting{
+    margin-top: 10px;    border: 0;
+    margin-left: 50px;
+    margin-right: -290px;
+    background: #AAAAAA;
+    color: #fff;
+    border: 0;
+}

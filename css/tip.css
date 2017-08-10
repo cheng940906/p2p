@@ -1,0 +1,169 @@
+.modal-backdrop {
+    background-color:rgba(0,0,0,0);
+}
+.modal-backdrop.in {
+    opacity: 1;
+    background: url(../image/BombBox.png)no-repeat 510px 10px;
+}
+.modal-content{
+    box-shadow: none;
+    border: 1px solid #FFBE25;
+    position: relative;
+    width: 580px;
+  /*   height: 60%; */
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    user-select: none;
+    
+}
+@media (min-width: 768px){
+	.modal-dialog {
+    width: 580px;
+    margin: 150px 350px;
+    }
+    .tip-reason{
+	  margin-left:20px;
+	}
+}
+.modal-footer {
+   margin-bottom: 16px;
+    border-top:0;
+    display: flex;
+    justify-content: space-around;
+}
+.modal-footer button{
+   position: relative;
+}
+.modal-footer button:after{
+    content: "";
+   position: absolute;
+   width:7px;height:1px;
+   background: #fff;
+   top:0;bottom:0;margin:auto;
+   right:13px;
+}
+.modal-footer button:before{
+    content: "";
+   position: absolute;
+   width:7px;height:1px;
+   background: #fff;
+   top:0;bottom:0;margin:auto;
+   left:13px;
+}
+.fastener{
+	padding: 3px;
+    border-radius: 10px;
+    background: #AAAAAA;
+    border: 0;  
+}
+.fastener span{
+	 color: #fff;
+	 border:1px solid #fff;
+	padding: 0 20px;
+    border-radius: 5px;
+}
+.col-sm-6 #inputPassword3{
+	height:150px;
+	width: 111%;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: none;
+}
+.modal-body {
+    padding-top:40px;
+    padding-bottom: 0;
+
+}
+.form-group {
+    margin-bottom: 30px;
+}
+/* 添加项目弹框 */
+.modal-body {
+    text-align: center;
+}
+.NetLoanProducts-add{
+ margin-bottom: 0;
+ position: relative;
+}
+.NetLoanProducts-add:after{
+    content: "";
+   position: absolute;
+     width: 12px;
+    height: 2px;
+    background: #D8D8D8;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 205px;
+}
+.NetLoanProducts-add:before{
+    content: "";
+   position: absolute;
+     width: 12px;
+    height: 2px;
+    background: #D8D8D8;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 205px;
+}
+.NetLoanProducts-add span{
+   color:#FFBE25;
+}
+.NetLoanProducts-add-english{
+}
+.NetLoanProducts-add-con{
+    border: 1px solid #532E1A;
+    padding: 40px 10px;
+    width: 70%;
+    border-radius: 10px;
+    margin:25px auto;
+    font-size:18px;
+}
+.NetLoanProducts-add-con i{
+    color: #ffbe25;
+}
+
+.modal-footer .active{
+    background: #FFBE25; 
+}
+
+/* 项目举报 */
+.RecruitingProject-details-reason #inputPassword3{
+    width:100%;
+}
+.col-sm-7{
+        text-align: initial;
+        margin-left: -50px;
+}
+
+.hint{
+    color: #fdc500;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+/* 申请项目投资 */
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: 40px;
+}
+label{
+  margin-left: 40px;
+}
+.modal-body{
+    font-size: 16px;
+    color: #532E1A;
+    font-family: "微软雅黑";
+    font-weight: 100;
+}

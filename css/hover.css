@@ -1,0 +1,10 @@
+.table-hover>tbody>tr:hover {
+    background-color: #fff;
+    box-shadow: 0 0 4px #666;
+    cursor: pointer;
+}
+.table-hover>tbody>tr:hover .btn{
+    border: 1px solid #FFBE25;
+    background: #FFBE25;
+    color: #fff;
+}

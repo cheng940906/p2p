@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<script src="js/jquery-3.1.0.js"></script>
+  <!-- <script src="js/function.js"></script> -->
+  <script src="js/animate.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/fenye.css">
+  <link rel="stylesheet" href="css/NetLoanProducts.css">
+  <link rel="stylesheet" href="css/tip.css">
+  <link rel="stylesheet" href="css/NetLoanProducts-details.css">
+  <link rel="stylesheet" href="css/RecruitingProject-details.css">
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/banner.js"></script>
+</head>
+<body>
+	<header>
+       <div class="header-con">
+            <div class="header-con-l">
+                  <div class="h-img"></div>
+                  <a href="index.html">海信金融云服务平台</a>
+            </div>
+            <div class="header-con-r">
+                   <div class="h-tel">
+                       <div class="h-pho"></div>
+                       <span>0351-3530677</span>
+                   </div>
+                   <div class="logreg">
+                       <div class="h-per"></div>
+                       <a href="reg.html">我要入驻</a>
+                       <div class="gang"></div>
+                       <a href="login.html">我要登录</a>
+                   </div>
+            </div>
+       </div>
+  </header>
+  <nav>
+    <div class="nav-con">
+             <a href="index.html" class="logo-index"><img src="image/index/logo.jpg" alt=""></a>
+             <ul class="nav nav-pills">
+              <li role="presentation"><a href="index.html">首页</a></li>
+              <li role="presentation"><a href="NetLoanProducts.html">网贷产品</a></li>
+              <li role="presentation" class="pull-down active"><a href="RecruitingProject.html">招投项目</a>
+                  <ul class="RecruitingProjectClassify">
+                       <li><a href="RecruitingProject-list.html">双创专区</a></li>
+                       <li><a href="RecruitingProject-list-2.html">中小微专区</a></li>
+                       <li><a href="RecruitingProject-list-3.html">扶贫专区</a></li>
+                  </ul>
+              </li>
+              <li role="presentation"><a href="MemberCenter.html">会员中心</a></li>
+              <li role="presentation"><a href="Set.html">安全保障</a></li>
+            </ul>
+    </div>  
+  </nav>
+	<div class="banner carousel slide" id="myCarousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="active item"><a></a></div>
+          <div class="item"><a></a></div>
+        </div>
+  </div>
+  <div class="mianbaoxie">
+      <ul class="breadcrumb">
+  		  <li><a href="#">首页</a> <span class="divider">></span></li>
+        <li><a href="#">招投项目</a> <span class="divider">></span></li>
+  		  <li class="active">项目详情</li>
+		  </ul>
+  </div>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-backdrop" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-4 control-label">举报项目名称</label>
+              <div class="col-sm-6">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-4 control-label">举报他的理由</label>
+              <div class="col-sm-6 RecruitingProject-details-reason">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer tip-commit">
+          <button type="button" class="btn btn-default fastener active" ><span>确定</span></button>
+          <button type="button" class="btn btn-primary fastener" data-dismiss="modal"><span>取消</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="product-details-iocn">
+
+      <img src="image/RecruitingProject-details-img.jpg" alt="">
+      <div class="product-detals-iocn-right">
+          <p class="prepare">筹款中</p>
+          <div class="product-details-iocn-rTitie">
+              <h3>蓝天牧场</h3>
+          </div>  
+          <p><span>发布时间</span>2017-04-09</p>
+          <span class="remainingTime">剩余<i>6</i>天可投</span>
+          <div class="product-details-iocn-rCon">
+              <table class="table">
+                              <thead>
+                                <tr>
+                                  <th>贷款金额</th>
+                                  <th>还款期限</th>
+                                  <th>年利率</th>
+                                  <th>还款方式</th>
+                                  <th>月还本息</th>                                  
+                                  <th>所属领域</th>                                  
+
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>200万</td>
+                                  <td>6个月</td>
+                                  <td>4%</td>
+                                  <td>等额本息</td>
+                                  <td>30万</td>
+                                  <td>能源</td>
+
+                                </tr>
+                              </tbody>
+              </table>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+              <span class="sr-only">60% Complete (warning)</span>
+            </div>
+            <p class="progress-overplus">剩余<span>89<i>万元</i></span>可投</p>
+            <i class="progress-ceric"></i>
+            <i class="progress-num">60%</i>
+            <i class="progress-over">200万</i>
+          </div>
+          <a class="btn btn-small" type="button" href="myNetLoanPorjectList.html">立即投资</a>
+          <a href="javascript:;" type="button" class="btn btn-primary btn-lg tip" data-toggle="modal" data-target="#myModal">举报此项目</a>
+
+      </div>
+  </div>
+  <div class="product-details-con">
+     <div class="product-details-contac">
+         <div class="product-details-contac-l">
+            <p class="product-details-contac-l-tit">
+               项目<span>描述</span><i>PROJECT DESCRIPTION</i>
+            </p>
+            <p class="product-details-contac-l-con">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在资本主义发展初期，资本所有者与资本运用者是结合在一起的，经济主体一般都直接拥有生产资料和资本，亲自从事生产消费，投资大多采用直接投资的方式，也就是直接投入资本，建造厂房，购置设备，购入原材料，从事生产、流通等活动，因此，早期的投资的概念主要是指实物投资。随着资本主义生产力和商品经济的发展，占有资本和运用资本的分离，日益成为资本运用的一种重要形式。</p>
+            <p class="product-details-contac-l-con">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在资本主义发展初期，资本所有者与资本运用者是结合在一起的，经济主体一般都直接拥有生产资料和资本，，亲自从事生产消费，投资大多采用直接投资的方式，也就是直接投入资本，建造厂房，购置设备，购入原材料，从事生产、流通等活动，因此，早期的投资的概念主要是指实物投资。随着资本主义生产力和商品经济的发展，占有资本和运用资本的分离，日益成为资本运用的一种重要形式。</p>
+            <p class="product-details-contac-l-con">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在资本主义发展初期，资本所有者与资本运用者是结合在一起的，经济主体一般都直接拥有生产资料和资本，，亲自从事生产消费，投资大多采用直接投资的方式，也就是直接投入资本，建造厂房，购置设备，购入原材料，从事生产、流通等活动，因此，早期的投资的概念主要是指实物投资。随着资本主义生产力和商品经济的发展，占有资本和运用资本的分离，日益成为资本运用的一种重要形式。</p>
+            <p class="product-details-contac-l-con">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在资本主义发展初期，资本所有者与资本运用者是结合在一起的，经济主体一般都直接拥有生产资料和资本，，亲自从事生产消费，投资大多采用直接投资的方式，也就是直接投入资本，建造厂房，购置设备，购入原材料，从事生产、流通等活动，因此，早期的投资的概念主要是指实物投资。随着资本主义生产力和商品经济的发展，占有资本和运用资本的分离，日益成为资本运用的一种重要形式。</p>
+         </div> 
+         <div class="product-details-contac-r">
+          <div class="product-details-contac-rTop">
+            <p class="product-details-contac-l-tit">
+               企业基<span>本信息</span><i>Enterprise basic information </i>
+            </p>
+            <ul>
+               <li>山西证券股份有限公司长治分公司</li>
+               <li>法人代表 <span>任佳慧</span></li>
+               <li>联系电话  <span>0351-0908089</span></li>
+               <li>成立时间  <span>2014-04-02</span></li>
+               <li>企业邮箱  <span>129876432@139.com</span></li>
+               <li>所属地区  <span>山西省太原市杏花岭区</span></li>
+               <li>企业邮编  <span>030024</span></li>
+               <a href="RecruitingProject-details-2.html">查看详细信息</a>
+            </ul>
+          </div>
+          <div class="product-details-contac-rTop">
+            <p class="product-details-contac-l-tit">
+               投资<span>机构</span><i>INVESTMENT INSTITUTIONS</i>
+            </p>
+            <ul>
+               <li>领头机构 <span>海信资产有限公司</span></li>
+               <li>投资机构  <span>山西蓝天普惠资产管理有限公司</span></li>
+            </ul>
+          </div>
+         </div>
+     </div>
+  </div>
+	<footer>
+       <div class="foot-con">
+            <div class="jumbotron">
+      			  <h1>CONTACT US</h1>
+      			  <p><span>联系</span>我们</p>
+      			  <p>客服邮箱:tyshaixin@163.com</p>
+      			  <p>客服电话:0351-3530677</p>
+      			</div>
+      			<div class="foot-gang"></div>
+      			<ul class="foot-contant">
+      			  <li class="">地址:山西省太原市杏花岭区新建路152号万达公馆3号楼2单元3701室</li>
+      			  <li class="">客服邮箱:tyshaixin@163.com</li>
+      			  <li class="">客服电话:0351-3530677</li>
+      			</ul>
+      			<div class="foot-r">
+                     <img src="image/index/reweima.jpg" alt="">
+                     <img src="image/index/reweima.jpg" alt="">
+                     <p>服务电话:0351-3530677</p>
+      			</div>
+      </div>
+	</footer>
+	<div class="di">
+       <p>海信资产有限责任公司版权所有<span>COPYRIGHT&copy; HAIXIN ALL GIZHTS RESERVED。</span>备案号:晋ICP15004629号</p>
+	</div>
+</body>
+</html>

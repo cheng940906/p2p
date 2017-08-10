@@ -1,0 +1,37 @@
+.btn:hover, .btn:focus, .btn.focus ,a:hover,a:focus{
+    border:0;
+    outline: none;
+
+}
+.myAccount .active ,.myAccount li:hover >a{
+    background: #EDEDED;
+    color: #ff8625;
+}
+.btn-primary {
+    color: #ffbe25;
+    background-color: #fff;
+    border-color: #ffbe25;
+    border-radius: 20px;
+    padding: 3px 20px;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    color: #fff;
+    background-color: #ffbe25;
+    border: 1px solid rgba(0,0,0,0);
+}
+tbody td .btn-default {
+    border-radius: 25px;
+    padding: 0px 15px;
+    background: #fff;
+    border: 1px solid #ffbe25;
+    color: #ffbe25;
+}
+thead tr {
+    height: 50px;
+    background: #EEEEEE;
+    font-size: 16px;
+    color: #676767;
+}
+.table>tbody>tr>td {
+    color: #7E7E7E;
+}

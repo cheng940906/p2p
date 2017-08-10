@@ -1,0 +1,137 @@
+.product-detals-iocn-right {
+    width: 660px;
+}
+.product-details-iocn {
+    height: initial;
+}
+.product-details-con {
+    margin-top: 50px;
+}
+.product-details-iocn-rTitie {
+        margin-top: 40px;
+}
+.product-detals-iocn-right p {
+    font-size: 16px;
+    top: 90px;
+}
+.product-detals-iocn-right .btn {
+    right: 180px;
+}
+.table {
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: none;
+    display: table;
+}
+.product-details-contac-l .product-details-contac-l-con{
+	padding: 10px;
+    font-size: 14px;
+        color: #696969;
+}
+.product-details-contac-l-tit {
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+.product-details-contac-r {
+    width: 39.4%;
+    padding-bottom: 0px;
+    box-shadow: none;
+}
+.product-details-contac-rTop{
+    box-shadow: 0 0 7px #ccc;
+}
+.product-details-contac-rTop:nth-child(1){
+    margin-bottom: 10px;
+}
+.product-detals-iocn-right .prepare{
+    width: 20%;
+    color:#fff;
+    padding: 0px 25px;
+    line-height: 70px;
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    background: url(../image/RecruitingProject-details-ing.png) no-repeat;
+}
+
+/* 进度条 */
+.progress{
+   width:80%;
+   height: 8px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+.progress-bar-warning {
+    background-color: #FFBE25;
+}
+
+/* 剩余时间 */
+.remainingTime{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 16px;
+}
+.remainingTime i{
+    font-size: 72px;
+    color:#FFBE25;
+}
+.progress-num{
+    position: absolute;
+    bottom: 70px;
+    right:290px;
+}
+.progress-ceric{
+    position: absolute;
+    right: 300px;
+    bottom: 90px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffbe25;
+}
+.product-detals-iocn-right {
+    padding-bottom:20px;
+}
+.progress-over{
+    position: absolute;
+    right: 40px;
+    bottom: 85px;
+    color: #ffbe25;
+    font-size: 16px;
+}
+.product-detals-iocn-right .btn {
+    display: -webkit-inline-box;
+    position: static;
+    margin-top:35px;
+    margin-left: 100px;
+}
+.dispromise{
+    position: absolute;
+    bottom: 24px;
+    right: 50px;
+}
+.product-detals-iocn-right .progress-overplus{
+   position: absolute;
+       top: 260px;
+    left: 300px;
+}
+.product-detals-iocn-right .progress-overplus span{
+        font-size: 30px;
+    color: #ffbe25;
+}
+.product-detals-iocn-right .progress-overplus span i{
+        font-size: 20px;
+}
+tbody>tr>th, .table>tfoot>tr>th, .table>tbody>tr>td, .table>tfoot>tr>td {
+    line-height: 56px;
+    height: auto;
+    text-align: center;
+    padding: 0 ;
+    background: #fff;
+}
+
+.modal-footer {
+    margin-top: 0;
+}

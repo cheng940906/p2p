@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<script src="js/jquery-3.1.0.js"></script>
+  <!-- <script src="js/function.js"></script> -->
+  <script src="js/animate.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/fenye.css">
+  <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="css/NetLoanProducts.css">
+  <link rel="stylesheet" href="css/tip.css">
+  <link rel="stylesheet" href="css/myNetLoanPorjectList.css">
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/banner.js"></script>
+</head>
+<body>
+	<header>
+       <div class="header-con">
+            <div class="header-con-l">
+                  <div class="h-img"></div>
+                  <a href="index.html">海信金融云服务平台</a>
+            </div>
+            <div class="header-con-r">
+                   <div class="h-tel">
+                       <div class="h-pho"></div>
+                       <span>0351-3530677</span>
+                   </div>
+                   <div class="logreg">
+                       <div class="h-per"></div>
+                       <a href="reg.html">我要入驻</a>
+                       <div class="gang"></div>
+                       <a href="login.html">我要登录</a>
+                   </div>
+            </div>
+       </div>
+  </header>
+  <nav>
+    <div class="nav-con">
+             <a href="index.html" class="logo-index"><img src="image/index/logo.jpg" alt=""></a>
+             <ul class="nav nav-pills">
+              <li role="presentation"><a href="index.html">首页</a></li>
+              <li role="presentation"><a href="NetLoanProducts.html">网贷产品</a></li>
+              <li role="presentation" class="pull-down active"><a href="RecruitingProject.html">招投项目</a>
+                  <ul class="RecruitingProjectClassify">
+                       <li><a href="RecruitingProject-list.html">双创专区</a></li>
+                       <li><a href="RecruitingProject-list-2.html">中小微专区</a></li>
+                       <li><a href="RecruitingProject-list-3.html">扶贫专区</a></li>
+                  </ul>
+              </li>
+              <li role="presentation"><a href="MemberCenter.html">会员中心</a></li>
+              <li role="presentation"><a href="Set.html">安全保障</a></li>
+            </ul>
+    </div>  
+  </nav>
+	<div class="banner carousel slide" id="myCarousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="active item"><a></a></div>
+          <div class="item"><a></a></div>
+        </div>
+  </div>
+  <div class="mianbaoxie">
+      <ul class="breadcrumb">
+  		  <li><a href="#">首页</a> <span class="divider">></span></li>
+        <li><a href="#">招投项目</a> <span class="divider">></span></li>
+  		  <li class="active">选择我的网贷产品</li>
+		  </ul>
+  </div>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-backdrop" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+           <form class="form-horizontal">
+                                <div class="form-group">
+                                  <label for="inputEmail3" class="col-sm-3 control-label">项目名称:</label>
+                                  <div class="col-sm-7 porject-name">
+                                    小时贷款
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label for="inputEmail3" class="col-sm-3 control-label">借款金额:</label>
+                                  <div class="col-sm-7">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label for="inputEmail3" class="col-sm-3 control-label">年利率:</label>
+                                  <div class="col-sm-7 phone-identifyingCode">
+                                    <input type="email" class="form-control identifyingCode" id="inputEmail3" placeholder="">
+                                  </div>
+                                </div>
+                                <p class="hint">提示：请输入您的预投资的金额和年利率</p>
+          </form>
+        </div>
+        <div class="modal-footer tip-commit">
+          <button type="button" class="btn btn-default fastener active" ><span>确定</span></button>
+          <button type="button" class="btn btn-primary fastener" data-dismiss="modal"><span>取消</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="product-con">
+      <div class="product-con-list">
+                <p><span class="product-list-icon"></span>我的网贷<span>产品列表</span></p>
+      </div>
+      <table class="table table-hover">
+                              <thead>
+                                <tr>
+                                  <th></th>
+                                  <th>产品名称</th>
+                                  <th>额度范围</th>
+                                  <th>年利率</th>                                
+                                  <th>创建时间</th>
+                                  <th></th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td><div></div></td>
+                                  <td><a href="NetLoanProducts-details.html">晋商银行网贷产品</a></td>
+                                  <td>10万~2000万</td>
+                                  <td>2%~13%</td>
+                                  <td>2017年12月7日</td>
+                                  <td>
+                                     <button type="button" class="btn btn-primary" data-loading-text="选定" data-toggle="modal" data-target="#myModal">选定</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><div></div></td>
+                                  <td><a href="NetLoanProducts-details.html">晋商银行网贷产品</a></td>
+                                  <td>10万~2000万</td>
+                                  <td>2%~13%</td>
+                                  <td>2017年12月7日</td>
+                                  <td>
+                                     <button type="button" class="btn btn-primary" data-loading-text="选定" data-toggle="modal" data-target="#myModal">选定</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><div></div></td>
+                                  <td><a href="NetLoanProducts-details.html">晋商银行网贷产品</a></td>
+                                  <td>10万~2000万</td>
+                                  <td>2%~13%</td>
+                                  <td>2017年12月7日</td>
+                                  <td>
+                                     <button type="button" class="btn btn-primary" data-loading-text="选定" data-toggle="modal" data-target="#myModal">选定</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><div></div></td>
+                                  <td><a href="NetLoanProducts-details.html">晋商银行网贷产品</a></td>
+                                  <td>10万~2000万</td>
+                                  <td>2%~13%</td>
+                                  <td>2017年12月7日</td>
+                                  <td>
+                                     <button type="button" class="btn btn-primary" data-loading-text="选定" data-toggle="modal" data-target="#myModal">选定</button>
+                                  </td>
+                                </tr>
+                              </tbody>
+       </table>
+  </div>
+  <div class="pagination pagination-centered">
+          <ul class="pager">
+           <li><a href="#">上一页</a></li>
+           <li class=""><a href="#">1</a></li>
+           <li class=""><a href="#">2</a></li>
+           <li class="active"><a href="#">3</a></li>
+           <li><a href="#">下一页</a></li>
+          </ul>
+  </div>  
+	<footer>
+       <div class="foot-con">
+            <div class="jumbotron">
+      			  <h1>CONTACT US</h1>
+      			  <p><span>联系</span>我们</p>
+      			  <p>客服邮箱:tyshaixin@163.com</p>
+      			  <p>客服电话:0351-3530677</p>
+      			</div>
+      			<div class="foot-gang"></div>
+      			<ul class="foot-contant">
+      			  <li class="">地址:山西省太原市杏花岭区新建路152号万达公馆3号楼2单元3701室</li>
+      			  <li class="">客服邮箱:tyshaixin@163.com</li>
+      			  <li class="">客服电话:0351-3530677</li>
+      			</ul>
+      			<div class="foot-r">
+                     <img src="image/index/reweima.jpg" alt="">
+                     <img src="image/index/reweima.jpg" alt="">
+                     <p>服务电话:0351-3530677</p>
+      			</div>
+      </div>
+	</footer>
+	<div class="di">
+       <p>海信资产有限责任公司版权所有<span>COPYRIGHT&copy; HAIXIN ALL GIZHTS RESERVED。</span>备案号:晋ICP15004629号</p>
+	</div>
+</body>
+</html>

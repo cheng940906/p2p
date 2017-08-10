@@ -1,0 +1,83 @@
+
+.btn:hover, .btn:focus, .btn.focus ,a:hover,a:focus{
+    border: 0;
+    outline: none;
+
+}
+.person-con {
+    width: 100%;
+    height: 100%;
+    background: #FAFAFA;
+    user-select: none;
+}
+.myAccount-con-xinxi {
+    height: 100%;
+    border-bottom:0;
+    background: #fff;
+    padding: 0 19px;
+    display:block;
+    position: relative;
+    padding-bottom: 50px;
+}
+.myAccount-con-xinxi .set-title{
+	position: relative;
+	color: #FF8625;
+	font-size: 18px;
+	padding: 0px;
+}
+.myAccount-con-xinxi .set-title span{
+	width:3px;
+	height:18px;
+	background: #FF8625;
+	position: absolute;
+	left:-10px;
+	top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+h5{
+	font-size: 16px;
+	color:#333;
+	margin-top: 30px;
+}
+h6{
+	color: #666;
+	font-size: 16px;
+	margin-top: 40px;
+}
+.myAccount-con-xinxi .h6{
+	color: #666;
+	font-size: 16px;
+    margin:0;
+    margin-bottom: 10px;
+}
+.myAccount-con-xinxi .set-contact{
+    padding: 0;
+    height: auto;
+    margin:0px;
+    font-size: 14px;
+    color: #999;
+}
+/* 选项卡 */
+#myTabContent,.myAccount, .myAccount-con, .myAccount-con-tongji {
+    margin-top:0px;
+}
+.nav-tabs>li>a {
+    border: 0;
+}
+.set-table>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.set-table>li.active,  .set-table>li.active:focus, .set-table>li:hover >a, .set-table>li:focus >a{
+    background-color: #ededed;
+    z-index: 1;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+     color: #F6B724;
+    cursor: default;
+    background-color:#ededed;
+    border:0;
+}

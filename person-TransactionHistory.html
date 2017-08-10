@@ -1,0 +1,119 @@
+
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" />  
+    <script src="js/moment-with-locales.min.js"></script>  
+    <script src="js/bootstrap-datetimepicker.min.js"></script> 
+<div class="ajax">
+  <div class="myAccount-con-huikuancon">
+      <div class="myAccount-con-huikuancontact">
+         <ul class="myAccount-con-hklist">
+             <li class="active">交易记录</li>
+            <!--  <li>下期应回款</li> -->
+         </ul>
+         <div class="huankuanjilu">
+              <div class="row">  
+                  <div class='col-sm-4'>  
+                      <div class="form-group">  
+                          <label>起始日期：</label>  
+                          <!--指定 date标记-->  
+                          <div class='input-group date' id='datetimepicker1'>  
+                              <input type='text' class="form-control" />  
+                              <span class="input-group-addon">  
+                                  <span class="glyphicon glyphicon-calendar"></span>  
+                              </span>  
+                          </div>  
+                      </div>  
+                  </div> 
+                  <div class="gang"></div> 
+                  <div class='col-sm-4'>  
+                      <div class="form-group">  
+                          <label>最后日期：</label>  
+                          <!--指定 date标记-->  
+                          <div class='input-group date' id='datetimepicker2'>  
+                              <input type='text' class="form-control" />  
+                              <span class="input-group-addon">  
+                                  <span class="glyphicon glyphicon-calendar"></span>  
+                              </span>  
+                          </div>  
+                      </div>  
+                  </div> 
+                  <div><button type="button" class="btn btn-primary search" data-loading-text="立即投资">搜索</button> </div>
+              </div>
+         </div>
+         <table class="table table-hover person-myback">
+            <thead>
+              <tr>
+                <th>事件</th>
+                <th>金额</th>
+                <th>日期</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>你向山西蓝天牧业有限公司充值</td>
+                <td>2,000.00（元）</td>
+                <td>2017/4/6</td>
+
+              </tr>
+                <td>山西蓝天牧业有限公司向您还款</td>
+                <td>2,000.00（元）</td>
+                <td>2017/4/6</td>
+              </tr>
+              <tr>
+               <td>山西蓝天牧业有限公司向您还款</td>
+                <td>2,000.00（元）</td>
+                <td>2017/4/6</td>
+              </tr>
+              <tr>
+                <td>您在本平台提现</td>
+                <td>2,000.00（元）</td>
+                <td>2017/4/6</td>
+              </tr>
+               <tr>
+                <td>你向山西蓝天牧业有限公司充值</td>
+                <td>2,000.00（元）</td>
+                <td>2017/4/6</td>
+
+              </tr>
+                <td>山西蓝天牧业有限公司向您还款</td>
+                <td>2,000.00（元）</td>
+                <td>2017/4/6</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+      <div class="pagination pagination-centered">
+            <ul class="pager">
+             <li><a href="#">上一页</a></li>
+             <li class="active"><a href="#">1</a></li>
+             <li class=""><a href="#">2</a></li>
+             <li class=""><a href="#">3</a></li>
+             <li><a href="#">下一页</a></li>
+            </ul>
+      </div>
+  </div>
+</div>
+<script type="text/javascript">
+$(function () { 
+/*-----------------------时间插件----------------------------*/ 
+    var picker1 = $('#datetimepicker1').datetimepicker({   
+        locale: moment.locale('zh-cn'), 
+        format: 'yyyy-mm-dd',//显示格式
+        minView: "month", 
+        //minDate: '2016-7-1'  
+    });  
+    var picker2 = $('#datetimepicker2').datetimepicker({  
+        locale: moment.locale('zh-cn'), 
+        format: 'yyyy-mm-dd',//显示格式
+        minView: "month",   
+    });  
+    //动态设置最小值  
+    picker2.on('dp.change', function (e) {  
+        picker1.data('DateTimePicker').minDate(e.date);  
+    });  
+    //动态设置最大值  
+    picker1.on('dp.change', function (e) {  
+        picker2.data('DateTimePicker').maxDate(e.date);  
+    });  
+}); 
+</script>
